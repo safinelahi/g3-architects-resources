@@ -1,25 +1,23 @@
 /* Universal styles */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
 
 /* Shared styles */
 .button-primary {
-    width: 180px;
-    height: 64px;
-    border-radius: 8px;
-    border: 0px;
-    background: #ff900e;
-    color: #fff;
-    text-align: center;
-    font-family: "Work Sans";
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-  }
-
+  border-radius: 8px;
+  border: 0px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 50px;
+  padding: 20px 25px;
+}
 
 /* Header Section style */
 header {
@@ -55,7 +53,6 @@ ul li {
   line-height: normal;
 }
 
-
 /* Banner section style */
 .banner-content {
   width: 862px;
@@ -70,6 +67,8 @@ ul li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 100px;
+  margin-bottom: 25px;
 }
 .banner-description {
   color: #727272;
@@ -79,5 +78,90 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 32px;
 }
+.banner img {
+  width: 100%;
+}
+/* Responsive Style */
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  /* Header Section Style */
+  header {
+    padding: 20px;
+  }
+  .website-title {
+    font-size: 1.9rem;
+  }
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav > ul {
+    justify-content: center;
+  }
+  ul li {
+    font-size: 0.8rem;
+    margin-right: 20px;
+  }
+  /* Banner Section style */
+  .banner-content {
+    width: 85%;
+  }
+  .banner-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    font-size: 2.4rem;
+  }
+  .banner-description {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  .button-primary {
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  br {
+    display: none;
+  }
+}
+/* Medium Devices styles */
+/* Tablet Devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /* Header Section */
+  header {
+    padding: 50px
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav > ul {
+    justify-content: center;
+  }
+  ul li {
 
+  }
+  /* Banner Section style */
+  br {
+    display: none;
+  }
+  .banner-content {
+    width: 85%;
+  }
+  .banner-title {
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 3rem;
+  }
+  .banner-description {
+    margin-bottom: 20px;
+  }
+  .button-primary {
+    padding: 15px 20px;
+    font-size: 1rem;
+    margin-bottom: 32px;
+  }
+}
