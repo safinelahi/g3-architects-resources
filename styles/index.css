@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+/* Main section style */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 /* Shared styles */
 .button-primary {
@@ -83,6 +88,54 @@ ul li {
 .banner img {
   width: 100%;
 }
+
+/* Teams Container */
+.teams-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5.3rem;
+}
+.teams-images-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.8rem;
+}
+.teams-content {
+  padding-left: 74px;
+}
+.teams-content-title {
+  max-width: 468px;;
+}
+.teams-content-title .word-quick-list {
+  color: #727272;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.teams-content-title .word-of-our {
+  color: #131313;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-left: 0.3rem;
+}
+.teams-content-title .word-features {
+  color: #ff900e;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.teams-content-description {
+  margin-top: 1.4rem;
+  max-width: 537px;;
+  color:  #727272;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem; /* 162.5% */
+  margin-bottom: 2rem;
+}
+
 /* Responsive Style */
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
@@ -132,7 +185,7 @@ ul li {
 @media screen and (min-width: 576px) and (max-width: 960px) {
   /* Header Section */
   header {
-    padding: 50px
+    padding: 50px;
   }
   nav {
     flex-direction: column;
