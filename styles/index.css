@@ -179,6 +179,31 @@ ul li {
   br {
     display: none;
   }
+  /* teams section */
+  
+  .teams-container {
+    margin-top: 3.3rem;
+    flex-direction: column-reverse;
+  }
+  .teams-images-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.8rem;
+  }
+  .teams-content {
+    padding: 0px 50px 0px 50px;
+  }
+  .teams-content-title .word-quick-list {
+   font-size: 1.8rem;
+  }
+  .teams-content-title .word-of-our {
+    font-size: 1.8rem;
+  }
+  .teams-content-title .word-features {
+    font-size: 1.8rem;
+  }
+  .teams-content-description {
+    max-width: 300px;
+  }
 }
 /* Medium Devices styles */
 /* Tablet Devices */
@@ -213,5 +238,15 @@ ul li {
     padding: 15px 20px;
     font-size: 1rem;
     margin-bottom: 32px;
+  }
+  .teams-container {
+    flex-direction: column-reverse;
+    margin-top: 3.3rem;
+  }
+  .teams-content {
+    padding-left: 0px;
+  }
+  .teams-images-containe {
+    gap: 1.8rem;
   }
 }
