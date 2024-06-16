@@ -90,6 +90,7 @@ ul li {
 }
 
 /* Teams Container */
+
 .teams-container {
   display: flex;
   align-items: center;
@@ -104,7 +105,7 @@ ul li {
   padding-left: 74px;
 }
 .teams-content-title {
-  max-width: 468px;;
+  max-width: 468px;
 }
 .teams-content-title .word-quick-list {
   color: #727272;
@@ -127,13 +128,62 @@ ul li {
 }
 .teams-content-description {
   margin-top: 1.4rem;
-  max-width: 537px;;
-  color:  #727272;
+  max-width: 537px;
+  color: #727272;
   font-family: "Work Sans";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6rem; /* 162.5% */
   margin-bottom: 2rem;
+}
+
+/* facts section style */
+
+.facts-section-title {
+  color: #131313;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.facts-section-description {
+  max-width: 33.8rem;;
+  color: #727272;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 45px 35px 60px 35px;
+  
+}
+.facts-card-container .card-stats {
+  color: #424242;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.facts-card-container .card-title {
+  color:  #727272;
+  font-family: "Work Sans";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Responsive Style */
@@ -180,7 +230,7 @@ ul li {
     display: none;
   }
   /* teams section */
-  
+
   .teams-container {
     margin-top: 3.3rem;
     flex-direction: column-reverse;
@@ -193,7 +243,7 @@ ul li {
     padding: 0px 50px 0px 50px;
   }
   .teams-content-title .word-quick-list {
-   font-size: 1.8rem;
+    font-size: 1.8rem;
   }
   .teams-content-title .word-of-our {
     font-size: 1.8rem;
