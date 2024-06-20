@@ -137,6 +137,83 @@ ul li {
   margin-bottom: 2rem;
 }
 
+/* features container styles */
+
+.features {
+  display: flex;
+  gap: 145px;
+  margin-top: 130px;
+}
+.features-container-title {
+  max-width: 468px;
+  color: #131313;
+  font-family: "Work Sans";
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  border-left: 5px solid #ff900e;
+  padding-left: 22px;
+}
+.features-container-description {
+  max-width: 586px;
+  color: #727272;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.features-container .features-card-container {
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 20px;
+  width: 586px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-card-container h4 {
+  color: #131313;
+  font-family: "Work Sans";
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.features-card-container p {
+  max-width: 514px;
+  color: #727272;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.features-images img {
+  height: 982px;
+}
+.features-images .ten-years-badge {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  bottom: 130px;
+  right: 90px;
+}
+.ten-years-badge h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 4.06rem;
+  font-weight: 700;
+  padding-top: 45px;
+}
+.ten-years-badge p {
+  color: #fff;
+  font-family: "Work Sans";
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 40px;
+}
+
 /* facts section style */
 
 .facts-section-title {
@@ -234,6 +311,8 @@ footer {
   font-weight: 400;
   padding: 39px 410px 39px 410px;
 }
+
+
 
 /* Responsive Style */
 /* Mobile Devices */
